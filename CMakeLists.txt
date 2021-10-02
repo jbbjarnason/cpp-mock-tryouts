@@ -3,3 +3,4 @@ project(Mocking_tryouts)
 set(CMAKE_CXX_STANDARD 20) # Todo: not good practice but irrelevant to the objective
 
 add_subdirectory(application)
+add_subdirectory(cppumock)
