@@ -2,8 +2,8 @@
 
 using namespace Smurfs;
 
-void SmurfImpl::jump() {
-    printf("Jumping\n");
+void SmurfImpl::jump(int height) {
+    printf("Jumping %d high\n", height);
     _actionAsStr = "jumping";
 }
 

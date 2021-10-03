@@ -9,7 +9,7 @@ class SmurfImpl {
 public:
     SmurfImpl() = default;
     ~SmurfImpl() = default;
-    void jump();
+    void jump(int height);
     void goLeft();
     void goRight();
     bool isBlue() const;

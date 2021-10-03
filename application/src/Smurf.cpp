@@ -8,8 +8,8 @@ _impl(std::make_shared<SmurfImpl>())
 {
 }
 
-void Smurf::jump() {
-    _impl->jump();
+void Smurf::jump(int height) {
+    _impl->jump(height);
 }
 
 void Smurf::goLeft() {

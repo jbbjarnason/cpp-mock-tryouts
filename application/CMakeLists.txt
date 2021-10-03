@@ -5,6 +5,7 @@ add_library(${LIB_NAME}
         src/Smurf.cpp
         src/SmurfImpl.cpp
         src/SmurfActions.cpp
+        src/Crew.cpp
 )
 target_include_directories(${LIB_NAME}
     PUBLIC

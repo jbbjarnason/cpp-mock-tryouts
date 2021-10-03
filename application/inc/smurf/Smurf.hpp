@@ -12,14 +12,14 @@ class Smurf {
 public:
     Smurf();
     ~Smurf() = default;
-    void jump();
+    void jump(int height);
     void goLeft();
     void goRight();
     bool isBlue();
     void doAction(Action&);
 
 private:
-    std::shared_ptr<SmurfImpl> _impl;
+    std::shared_ptr<SmurfImpl> _impl; // Todo: sizeof error when using unique ptr
 };
 
 } // End of namespace Smurfs
